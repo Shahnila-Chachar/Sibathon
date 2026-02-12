@@ -5,10 +5,12 @@ while True:
     print("1. Add Contact")
     print("2. View Contacts")
     print("3. Search Contact")
-    print("4. Delete Contact")
-    print("5. Exit")
+    print("4. Update Contact")
+    print("5. Count Contacts")
+    print("6. Delete Contact")
+    print("7. Exit")
     
-    choice = input("Choose an option (1-5): ")
+    choice = input("Choose an option (1-7): ")
     
     if choice == '1':
         name = input("Enter contact name: ")
